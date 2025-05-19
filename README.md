@@ -36,6 +36,7 @@ Provision VMs:
 Use the vm_setup.sh script to create six VMs on your Proxmox server:
 
 `ssh -i ~/.ssh/proxmox <user>@<proxmox_ip> 'bash -s' < vm_setup.sh`
+
 Replace <user> and <proxmox_ip> with your Proxmox credentials.
 
 Install and Configure K3s Cluster:
