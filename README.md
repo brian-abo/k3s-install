@@ -14,11 +14,13 @@ Customizable Parameters: Allows users to define network settings, VM specificati
 
 📁 Repository Structure
 
-```k3s-install/
+```
+k3s-install/
 ├── install.sh              # Main script to install and configure the K3s cluster
 ├── vm_setup.sh             # Script to provision VMs on Proxmox
 ├── vm_destroy.sh           # Script to destroy the provisioned VMs
-├── README.md               # Project documentation```
+├── README.md               # Project documentation
+```
 
 ⚙️ Prerequisites
  - Proxmox VE: A running Proxmox server with access to create and manage VMs.
